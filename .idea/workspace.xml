@@ -10,13 +10,15 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="926307ef-eebf-45d6-b1a1-ef775f5c26e7" name="Default Changelist" comment="" />
+    <list default="true" id="926307ef-eebf-45d6-b1a1-ef775f5c26e7" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[RZ8R72VD2WP]" />
+  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[Nexus_4_API_24]" />
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
@@ -38,7 +40,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="dart.analysis.tool.window.visible" value="false" />
     <property name="io.flutter.reload.alreadyRun" value="true" />
-    <property name="last_opened_file_path" value="$USER_HOME$/AndroidStudioProjects/Chargeplus/chargeplus_customerdevelop/chargeplus_customer" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -89,22 +91,22 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="357" y="0" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1652346550917" />
-    <state width="1367" height="169" key="GridCell.Tab.0.bottom" timestamp="1652387450328">
+    <state width="1367" height="253" key="GridCell.Tab.0.bottom" timestamp="1652420257141">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1367" height="169" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1652387450328" />
-    <state width="1367" height="169" key="GridCell.Tab.0.center" timestamp="1652387450327">
+    <state width="1367" height="253" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1652420257141" />
+    <state width="1367" height="253" key="GridCell.Tab.0.center" timestamp="1652420257140">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1367" height="169" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1652387450327" />
-    <state width="1367" height="169" key="GridCell.Tab.0.left" timestamp="1652387450326">
+    <state width="1367" height="253" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1652420257140" />
+    <state width="1367" height="253" key="GridCell.Tab.0.left" timestamp="1652420257138">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1367" height="169" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1652387450326" />
-    <state width="1367" height="169" key="GridCell.Tab.0.right" timestamp="1652387450327">
+    <state width="1367" height="253" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1652420257138" />
+    <state width="1367" height="253" key="GridCell.Tab.0.right" timestamp="1652420257140">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1367" height="169" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1652387450327" />
+    <state width="1367" height="253" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1652420257140" />
     <state x="49" y="0" width="828" height="728" key="find.popup" timestamp="1652380789684">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
