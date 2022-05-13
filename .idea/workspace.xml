@@ -12,13 +12,21 @@
   <component name="ChangeListManager">
     <list default="true" id="926307ef-eebf-45d6-b1a1-ef775f5c26e7" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/app/kotlin/compileDebugKotlin/cacheable/last-build.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/kotlin/compileDebugKotlin/cacheable/last-build.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/app/kotlin/compileDebugKotlin/localstate/build-history.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/kotlin/compileDebugKotlin/localstate/build-history.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/api_call_repo.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/repo/api_call_repo.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/end.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/screens/end.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/main.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/main.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/question_list_model.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/model/data_section_model.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/quizpage.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/screens/quizpage.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/quizpage2.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/screens/quizpage2.dart" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[Nexus_4_API_24]" />
+  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[]" />
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
@@ -40,15 +48,23 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="dart.analysis.tool.window.visible" value="false" />
     <property name="io.flutter.reload.alreadyRun" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Chargeplus/Chargeplustechnos/charge-plus - Copy" />
+    <property name="last_opened_file_path" value="$USER_HOME$/AndroidStudioProjects/Chargeplus/Chargeplustechnos/charge-plus - Copy" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="AndroidSdkUpdater" />
     <property name="show.migrate.to.gradle.popup" value="false" />
   </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\AndroidStudioProjects\Quiz-App\lib" />
+      <recent name="D:\AndroidStudioProjects\Quiz-App\lib\screens" />
+      <recent name="D:\AndroidStudioProjects\Quiz-App\lib\model" />
+      <recent name="D:\AndroidStudioProjects\Quiz-App\lib\repo" />
+    </key>
+  </component>
   <component name="RunManager">
-    <configuration name="main.dart" type="FlutterRunConfigurationType" factoryName="Flutter">
+    <configuration name="main.dart" type="FlutterRunConfigurationType" factoryName="Flutter" nameIsGenerated="true">
       <option name="filePath" value="$PROJECT_DIR$/lib/main.dart" />
       <method v="2" />
     </configuration>
@@ -87,30 +103,30 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="192" y="100" width="735" height="528" key="AVDManager/0.0.1366.728@0.0.1366.728" timestamp="1652362584929" />
-    <state x="357" y="0" key="FileChooserDialogImpl" timestamp="1652422140951">
+    <state x="357" y="0" key="FileChooserDialogImpl" timestamp="1652434242702">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="357" y="0" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1652422140951" />
-    <state width="1367" height="253" key="GridCell.Tab.0.bottom" timestamp="1652422147815">
+    <state x="357" y="0" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1652434242702" />
+    <state width="1367" height="102" key="GridCell.Tab.0.bottom" timestamp="1652440788644">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1367" height="253" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1652422147815" />
-    <state width="1367" height="253" key="GridCell.Tab.0.center" timestamp="1652422147814">
+    <state width="1367" height="102" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1652440788644" />
+    <state width="1367" height="102" key="GridCell.Tab.0.center" timestamp="1652440788643">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1367" height="253" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1652422147814" />
-    <state width="1367" height="253" key="GridCell.Tab.0.left" timestamp="1652422147814">
+    <state width="1367" height="102" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1652440788643" />
+    <state width="1367" height="102" key="GridCell.Tab.0.left" timestamp="1652440788643">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1367" height="253" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1652422147814" />
-    <state width="1367" height="253" key="GridCell.Tab.0.right" timestamp="1652422147815">
+    <state width="1367" height="102" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1652440788643" />
+    <state width="1367" height="102" key="GridCell.Tab.0.right" timestamp="1652440788644">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1367" height="253" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1652422147815" />
-    <state x="49" y="0" width="828" height="728" key="find.popup" timestamp="1652380789684">
+    <state width="1367" height="102" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1652440788644" />
+    <state x="49" y="0" width="828" height="812" key="find.popup" timestamp="1652436403980">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="49" y="0" width="828" height="728" key="find.popup/0.0.1366.728@0.0.1366.728" timestamp="1652380789684" />
+    <state x="49" y="0" width="828" height="812" key="find.popup/0.0.1366.728@0.0.1366.728" timestamp="1652436403980" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -121,28 +137,18 @@
           <option name="timeStamp" value="1" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="Dart">
-          <url>file://$PROJECT_DIR$/lib/main.dart</url>
-          <line>102</line>
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="Dart">
-          <url>file://$PROJECT_DIR$/lib/main.dart</url>
-          <line>101</line>
-          <option name="timeStamp" value="3" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="Dart">
-          <url>file://$PROJECT_DIR$/lib/quizpage.dart</url>
+          <url>file://$PROJECT_DIR$/lib/screens/quizpage.dart</url>
           <line>84</line>
           <option name="timeStamp" value="4" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="Dart">
-          <url>file://$PROJECT_DIR$/lib/quizpage2.dart</url>
-          <line>100</line>
+          <url>file://$PROJECT_DIR$/lib/screens/quizpage2.dart</url>
+          <line>106</line>
           <option name="timeStamp" value="5" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="Dart">
-          <url>file://$PROJECT_DIR$/lib/quizpage2.dart</url>
-          <line>104</line>
+          <url>file://$PROJECT_DIR$/lib/screens/quizpage2.dart</url>
+          <line>109</line>
           <option name="timeStamp" value="6" />
         </line-breakpoint>
       </breakpoints>

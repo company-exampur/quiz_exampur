@@ -1,8 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
-import 'package:quiztime/api_call_repo.dart';
-import 'package:quiztime/question_list_model.dart';
-import 'package:quiztime/quizpage2.dart';
+import 'package:quiztime/repo/api_call_repo.dart';
+import 'package:quiztime/screens/section_list_view.dart';
+import 'package:quiztime/model/data_section_model.dart';
+import 'package:quiztime/screens/quizpage2.dart';
 import 'package:quiztime/size_config.dart';
 
 void main() {
@@ -38,7 +39,7 @@ class Home extends StatefulWidget {
 class _HomeState extends State<Home> {
   @override
 
-  QuestionListModel? questionListModel;
+  DataSectionModel? questionListModel;
 void stat() async {
 
     final repo = ApiCallRepo().getQuiz();
@@ -86,75 +87,7 @@ questionListModel=questionListModel;
               ),
             ),
             SizedBox(height: 1.1 * SizeConfig.heightMultiplier!),
-        if(questionListModel!=null) ListView.builder(
-    physics: const ClampingScrollPhysics(),
-    shrinkWrap: true,
-    itemCount: questionListModel!.data!.section!.length ,
-    itemBuilder: (context, index) {
-      if(questionListModel!=null){
-      return  Container(
-              child: Padding(
-                padding: const EdgeInsets.all(16.0),
-                child: FlatButton(
-                  onPressed: () {
-                    navigate(questionListModel!.data!.section![index].section_subject, questionListModel!.data!.section![index].section_name, context,
-                        'assets/gk.jpg', Colors.red[300],questionListModel!.data!.test_duration,questionListModel!.data!.section![index]);
-                  },
-                  child: Card(
-                    shape: RoundedRectangleBorder(
-                        borderRadius: BorderRadius.circular(30)),
-                    color: Colors.red[300],
-                    shadowColor: Colors.red[900],
-                    elevation: 8,
-                    child: Column(children:[Row(
-                      children: <Widget>[
-                        Expanded(
-                            child: Center(
-                          child: Text(questionListModel!.data!.section![index].section_subject!.toUpperCase(),
-                              style: TextStyle(
-                                  color: Colors.black,
-                                  fontSize: 3.64 * SizeConfig.textMultiplier!,
-                                  fontWeight: FontWeight.w800,
-                                  fontFamily: 'Acme')),
-                        )),
-                        Expanded(
-                          child:Text("${questionListModel!.data!.test_duration.toString()} mins",
-                              style: TextStyle(
-                                  color: Colors.black,
-                                  fontSize: 3.64 * SizeConfig.textMultiplier!,
-                                  fontWeight: FontWeight.w800,
-                                  fontFamily: 'Acme')),
-
-                        ),
-                      ],
-                    ),
-                      Row(
-                        children: <Widget>[
-                          Expanded(
-                              child: Center(
-                                child: Text("${questionListModel!.data!.section![index].question!.length.toString()} questions",
-                                    style: TextStyle(
-                                        color: Colors.black,
-                                        fontSize: 3.64 * SizeConfig.textMultiplier!,
-                                        fontWeight: FontWeight.w800,
-                                        fontFamily: 'Acme')),
-                              )),
-                          Expanded(
-                            child:Text("Type : ${questionListModel!.data!.section![index].question![0].question_type}",
-                                style: TextStyle(
-                                    color: Colors.black,
-                                    fontSize: 3.64 * SizeConfig.textMultiplier!,
-                                    fontWeight: FontWeight.w800,
-                                    fontFamily: 'Acme')),
-
-                          ),
-                        ],
-                      ),
-                    ]),
-                  ),
-                ),
-              ),
-            );}else{return SizedBox();}}),
+    SectionListView(questionListModel:questionListModel!),
 
 
             SizedBox(height: 5.76 * SizeConfig.heightMultiplier!),
